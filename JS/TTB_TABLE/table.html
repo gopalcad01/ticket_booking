@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>FIRST_TABLE</title>
+    </head>
+    <body> 
+        <h1>REG_TABLE</h1>
+    <form>
+        <label for="FNAME">FIRST_NAME</label>
+        <input type="text" name="FNAME" id="FIRST_NAME" value="SUTHAKAR"><br>
+        <label for="LNAME">LAST_NAME</label>
+        <input type="text" name="LNAME" id="LAST_NAME" value="CHANDRA"><br>
+        <label for="PH_NO">PHONE_NUMBER</label>
+        <input type="text" name="PH_NO" id="PHONE_NUMBER" value="9361448297"><br>
+        <label for="DISTRIC">DISTRIC</label>
+        <input type="text" name="DISTRIC" id="DISTRIC" value="KARUR"><br>
+        <input type="submit"id="SUBMIT">
+    </form>
+<table border="2px" width="70ppx">
+    <tr>
+        <td id="FIRST_NAME">SUTHAKAR</td>
+    </tr>
+    <tr>
+        <td id="LAST_NAME">CHANDRA</td>
+    </tr>
+    <tr>
+        <td id="PHONE_NUMBER">9361448297</td>
+    </tr>
+    <tr>
+        <td id="DISTRIC">KARUR</td>
+    </tr>
+    </table>
+    <script>
+        document.getElementById(FNAME).innerHTML=Document.getElementById("FIRST_NAME");
+        document.getElementById(LNAME).innerHTML=Document.getElementById("LAST_NAME");
+        document.getElementById(PH_NO).innerHTML=Document.getElementById("PHONE_NUMBER");
+        document.getElementById(DISTRIC).innerHTML=Document.getElementById("DISTRIC");
+    </script>
