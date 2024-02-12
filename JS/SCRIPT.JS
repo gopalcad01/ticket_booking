@@ -70,7 +70,7 @@ operatorsdemo();
 
 function bike(){
     biketype;"Race", Model;"Yamaha",
-    price;"4.7L", Speed;"300 KMPH",
+    price;"4.7L", Speed;"300 KMPH"
 }
 console.log(bike.biketype)
  
